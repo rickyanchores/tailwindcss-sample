@@ -1,7 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+nav .resume {
+  font-family: Anurati;
+  text-transform: uppercase;
+}
+
 img {
   width: 100%;
   height: 100%;
+}
+
+@font-face {
+  font-family: Anurati;
+  src: url("./Fonts/Anurati-Regular.otf");
 }/*# sourceMappingURL=index.css.map */
