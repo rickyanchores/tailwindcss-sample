@@ -13,8 +13,8 @@ function App() {
         </ul>
       </nav>
       <section className='Hero bg-black flex max-h-screen'>
-        <div className="p-40 object-contain">
-        <img className="rounded-lg w-screen"alt="hero" src='https://plus.unsplash.com/premium_photo-1679026956879-05c0a4e63f3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80' />
+        <div className="p-40 object-cover">
+        <img className="rounded-lg object-cover w-screen"alt="hero" src='https://plus.unsplash.com/premium_photo-1679026956879-05c0a4e63f3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80' />
         </div>
         <div className="hero-right w-screen p-10 bg-pink-500 text-gray-200 flex justify-center
           items-center h-screen">
@@ -23,6 +23,9 @@ function App() {
           </h1>
         </div>
       </section>
+      <footer className="Footer py-40 bg-blue-700 flex justify-center">
+        <h1 className="text-white font-extrabold text-5xl ">Footer</h1>
+      </footer>
     </div>
   );
 }
