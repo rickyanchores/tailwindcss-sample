@@ -23,8 +23,11 @@ function App() {
           </h1>
         </div>
       </section>
-      <footer className="Footer py-40 bg-blue-700 flex justify-center">
-        <h1 className="text-white font-extrabold text-5xl ">Footer</h1>
+      <section>
+        <div className="banner">banner</div>
+      </section>
+      <footer className="Footer py-40 bg-cyan-900 flex justify-center">
+        <h1 className="footer text-white font-extrabold text-5xl ">Footer</h1>
       </footer>
     </div>
   );

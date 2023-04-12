@@ -11,6 +11,11 @@ img {
   height: 100%;
 }
 
+footer .footer {
+  font-family: Anurati;
+  text-transform: uppercase;
+}
+
 @font-face {
   font-family: Anurati;
   src: url("./Fonts/Anurati-Regular.otf");
