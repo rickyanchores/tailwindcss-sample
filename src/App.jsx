@@ -1,8 +1,6 @@
 
 
 
-
-
 function App() {
   return (
     <div className="App">
@@ -24,7 +22,9 @@ function App() {
         </div>
       </section>
       <section>
-        <div className="banner">banner</div>
+        <div className="py-40 bg-slate-600">
+          <h1 className="Banner  text-5xl font-extrabold flex justify-center ">B A N N E R</h1>
+        </div>
       </section>
       <footer className="Footer py-40 bg-cyan-900 flex justify-center">
         <h1 className="footer text-white font-extrabold text-5xl ">Footer</h1>
