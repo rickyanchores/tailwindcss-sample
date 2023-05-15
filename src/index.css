@@ -1,6 +1,10 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 nav .resume {
   font-family: Anurati;
   text-transform: uppercase;
@@ -24,3 +28,7 @@ footer .footer {
   font-family: Anurati;
   src: url("./Fonts/Anurati-Regular.otf");
 }/*# sourceMappingURL=index.css.map */
+
+
+
+

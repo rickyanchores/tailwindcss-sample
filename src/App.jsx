@@ -1,6 +1,4 @@
 
-
-
 function App() {
   return (
     <div className="App">
@@ -26,6 +24,11 @@ function App() {
           <h1 className="Banner  text-5xl font-extrabold flex justify-center ">B A N N E R</h1>
         </div>
       </section>
+      <section>
+        <div className="py-40 bg-red-500">
+          <h1 className="Banner  text-2xl font-extrabold flex justify-center ">B A N N E R</h1>
+        </div>
+      </section>
       <footer className="Footer py-40 bg-cyan-900 flex justify-center">
         <h1 className="footer text-white font-extrabold text-5xl ">Footer</h1>
       </footer>
@@ -34,3 +37,6 @@ function App() {
 }
 
 export default App;
+
+
+
